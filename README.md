@@ -4,20 +4,25 @@
 [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/rag-postgres-openai-python)
 
 This project creates a web-based chat application with an API backend that can use OpenAI chat models to answer questions about the rows in a PostgreSQL database table. The frontend is built with React and FluentUI, while the backend is written with Python and FastAPI.
+[Go to Original Source](https://github.com/Azure-Samples/rag-postgres-openai-python)
 
 This project is designed for deployment to Azure using [the Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/), hosting the app on Azure Container Apps, the database in Azure PostgreSQL Flexible Server, and the models in Azure OpenAI.
 
-* [Features](#features)
-* [Getting started](#getting-started)
-  * [GitHub Codespaces](#github-codespaces)
-  * [VS Code Dev Containers](#vs-code-dev-containers)
-  * [Local environment](#local-environment)
-* [Deployment](#deployment)
-* [Local development](#local-development)
-* [Costs](#costs)
-* [Security guidelines](#security-guidelines)
-* [Guidance](#guidance)
-* [Resources](#resources)
+- [RAG on PostgreSQL](#rag-on-postgresql)
+  - [Features](#features)
+  - [Architecture diagram](#architecture-diagram)
+  - [Getting started](#getting-started)
+    - [GitHub Codespaces](#github-codespaces)
+    - [VS Code Dev Containers](#vs-code-dev-containers)
+    - [Local Environment](#local-environment)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [Setting up the environment file](#setting-up-the-environment-file)
+    - [Running the frontend and backend](#running-the-frontend-and-backend)
+  - [Costs](#costs)
+  - [Security guidelines](#security-guidelines)
+  - [Guidance](#guidance)
+  - [Resources](#resources)
 
 ## Features
 
